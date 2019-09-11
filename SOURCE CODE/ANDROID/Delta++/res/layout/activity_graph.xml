@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Graph" 
+    android:background="@drawable/src">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.82" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="With its 55 percent reduction, Google Smart 
+Application Update reduces traffic to 62 Pbytes 
+(138 ×0.45), but DELTA++at 77 percent sav-ings pushes that reduction another 22 percent to 
+32 Pbytes (138 ×0.23). If 33 percent of updates 
+are through Wi-Fi, the extra savings in cellular 
+networks is approximately 20 Pbytes. Accord-ing to a 2012 report by CTIA,
+8
+US wireless data 
+trafic in the first half of 2012 was 590 Pbytes, 
+translating to approximately 1,180 Pbytes per 
+year. Thus, our savings of roughly 20 Pbytes 
+represents more than 1.7 percent of all cellular 
+trafic — a signigcant savings. This calculated 
+savings percentage should still hold even as 
+applications and users increase"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/White"
+         android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/Efforts_bt_Graph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Graph Here" 
+        android:background="@color/White"/>
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

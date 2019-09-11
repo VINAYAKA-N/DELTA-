@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/src"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AboutActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/red"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.70" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+       
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This method of creating and deploying update patches improves on Google 
+Smart Application Update by first unpacking the Android Application Package 
+and then compressing its elements individually. The smartphone user can 
+then download a smaller patch. Experiments show that performance yields 49 
+percent more reduction relative to Google’s solution, increasing the savings 
+in cellular network bandwidth use and resulting in lighter application server 
+loads. This reduction in Android application-update traffic could translate to 
+a 1.7 percent decrease in annual US cellular traffic. Similar methods applied to 
+iPhone application updates could yield even greater savings. "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/White"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:background="@drawable/go"
+        android:layout_gravity="right"
+         />
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>
